@@ -32,14 +32,15 @@ class _MainAppState extends State<MainApp> {
                       fontSize: 25,
                       fontWeight: FontWeight.w900,
                       color: Colors.white,
-                    ),
-                    )
-                  )
-                  ),
+              ),
+             )
+            )
+           ),
               Expanded(
                 flex: 6,
                 child: Image.network('https://shorturl.at/DJSDZ',
-                fit: BoxFit.fill,),
+                fit: BoxFit.fill,
+                ),
               ),
               Expanded(
                 flex: 2,
@@ -53,14 +54,14 @@ I'm so sorry (not sorry), but sometimes this just feels better than Lorem Ipsum 
                       fontSize: 15,
                       fontWeight: FontWeight.w700,
                       color: Colors.white,
-                    ),
-                    )
-                  )
-                  ),
-      ],
-           ),
           ),
-         ),
+         )
+        )
+       ),
+      ],
+     ),
+    ),
+   ),
   );
  }
 }
