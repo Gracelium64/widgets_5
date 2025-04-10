@@ -24,6 +24,7 @@ class _MainAppState extends State<MainApp> {
               Expanded(
                 flex: 2,
                 child: Container(
+                  height: 9001,
                     alignment: Alignment.center,
                     color: Colors.black,
                     child: Text('Welcome to the App!',
